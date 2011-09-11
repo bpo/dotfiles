@@ -1,0 +1,42 @@
+# vim: sw=4 sts=4 et si filetype=gitconfig
+
+[user]
+    name = Brian P O'Rourke
+    email = bpo@somnambulance.net
+    signingkey = 5A562B86
+[color]
+    ui = auto
+[color "branch"]
+    current = green
+    local = cyan
+    remote = yellow
+[color "diff"]
+    meta = yellow
+    frag = magenta
+    old = red
+    new = green
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+
+    l = log --graph --oneline
+    diff = diff --word-diff
+
+    # summary statistics
+    lstat = log --stat --summary
+    ss = diff --shortstat
+    fs = diff --stat
+
+    # svn interaction
+    spull = !git-svn fetch && git-svn rebase
+    spush = !git-svn dcommit
+[github]
+    user = bpo
+[core]
+    editor = /Users/bpo/bin/vi
+    excludesfile = ~/.gitignore.global
