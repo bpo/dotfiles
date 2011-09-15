@@ -24,6 +24,8 @@ set -o vi
 set editing-mode vi
 set keymap vi
 set convert-meta on
+export VMAIL_BROWSER="links"
+export VMAIL_VIM="mvim"
 
 # ^l clear screen
 bind -m vi-insert "\C-l":clear-screen
