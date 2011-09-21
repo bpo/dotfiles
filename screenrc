@@ -21,7 +21,6 @@ bind - resize -1
 
 screen -t top     11 top
 screen -t tc      10 techcrunch
-screen -t vmail   8 vmail
 screen -t w       9 ssh w.somnambulance.net
 screen -t scratch 0
 
