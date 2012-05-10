@@ -1,7 +1,7 @@
 # vim: sw=4 sts=4 et si filetype=gitconfig
 
 [user]
-    name = Brian P O'Rourke
+	name = Brian P O'Rourke
     email = bpo@somnambulance.net
     signingkey = 5A562B86
 [color]
