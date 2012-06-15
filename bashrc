@@ -60,7 +60,7 @@ export GOPATH=$GOROOT:/Users/bpo/stvp/redisgreen/go/path
 
 # Rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Postgres
 export PATH="$HOME/Developer/Cellar/postgresql/9.0.1/bin:$PATH"
