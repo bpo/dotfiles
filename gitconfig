@@ -38,5 +38,5 @@
 [github]
     user = bpo
 [core]
-    editor = /Users/bpo/bin/vi
+    editor = /usr/local/bin/mvim -f
     excludesfile = ~/.gitignore.global
