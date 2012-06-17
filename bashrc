@@ -64,4 +64,4 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Postgres
 export PATH="$HOME/Developer/Cellar/postgresql/9.0.1/bin:$PATH"
-export WURL_POSTGRES_ARGS="-k $HOME/Projects/wurl/wurl-server/tmp/pg_sock -p 6432"
+export WURL_POSTGRES_ARGS="-k $HOME/wurl/wurl-server/tmp/pg_sock -p 6432"
