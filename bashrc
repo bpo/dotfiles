@@ -22,6 +22,9 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 export PATH=~/bin:/usr/local/bin:/usr/local/sbin:$PATH
 stty -ixon -ixoff
 
+export CLICOLOR=1
+export GREP_OPTIONS="--color=auto"
+
 # vi mode
 set -o vi
 set editing-mode vi
