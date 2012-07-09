@@ -13,6 +13,7 @@ fi
 
 alias s="screen"
 alias be="bundle exec"
+alias migrate="be rake db:migrate && RAILS_ENV=test be rake db:migrate"
 
 # Environment
 export PS1=':\[\033[01;36m\]\W\[\033[00m\]\[\033[01;32m\]$(parse_git_branch)\[\033[00m\]\$ '
