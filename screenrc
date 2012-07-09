@@ -4,7 +4,6 @@ defflow off
 vbell on
 startup_message off
 backtick 10 3600 3600 status
-# backtick 11 300 300 prod_db_load
 caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= %10` - %l - %LD %d %LM - %c"
 
 # bound to 'home' on kinesis
