@@ -59,3 +59,6 @@ export PATH="$PATH:$HOME/sw/packer"
 #export VAGRANT_LOG="debug"  # verbose for vagrant
 export VAGRANT_CHECKPOINT_DISABLE=1   # skip extra network calls
 export PATH="$PATH:$HOME/sw/terraform"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
