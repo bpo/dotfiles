@@ -43,18 +43,6 @@ bind -m vi-insert "\C-p":dynamic-complete-history
 # ^n cycle through the list of partial matches
 bind -m vi-insert "\C-n":menu-complete
 
-# Android
-export ANDROID_SDK=~/Tools/android-sdk-macosx
-export ANDROID_NDK=~/Tools/android-ndk-r6b
-export PATH=$ANDROID_SDK/tools:$PATH
-export PATH=$ANDROID_SDK/platform-tools:$PATH
-export PATH=$ANDROID_NDK:$PATH
-
-# Rhodes
-export XCODEBUILD=/usr/bin/xcodebuild
-export RHO_HOME=/Users/bpo/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/bundler/gems/rhodes-1debce68cc61
-export PATH=$RHO_HOME/bin:$PATH
-
 # Cabal
 export PATH=$PATH:$HOME/.cabal/bin
 
