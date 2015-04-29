@@ -40,3 +40,5 @@
 [core]
     editor = vi
     excludesfile = ~/.gitignore.global
+[credential]
+	helper = osxkeychain
