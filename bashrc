@@ -52,3 +52,10 @@ export PATH=$PATH:${GOPATH//://bin:}/bin
 export PATH="$HOME/.rbenv/bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+# Hashicorp Tools
+export PATH="$PATH:$HOME/sw/packer"
+#export PACKER_LOG=1         # verbose mode
+#export VAGRANT_LOG="warn"
+#export VAGRANT_LOG="debug"  # verbose for vagrant
+export VAGRANT_CHECKPOINT_DISABLE=1   # skip extra network calls
+export PATH="$PATH:$HOME/sw/terraform"
