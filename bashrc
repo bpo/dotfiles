@@ -62,3 +62,6 @@ export PATH="$PATH:$HOME/sw/terraform"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Google AppEngine
+export PATH="~/sw/appengine:$PATH"
