@@ -48,6 +48,9 @@ export GOROOT=/usr/local/Cellar/go/1.4.2/libexec
 export GOPATH=/Users/bpo/stvp/go
 export PATH=$PATH:${GOPATH//://bin:}/bin
 
+# Java
+export JAVA_HOME="$(/usr/libexec/java_home)"
+
 # Rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
