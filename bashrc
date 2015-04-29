@@ -43,9 +43,6 @@ bind -m vi-insert "\C-p":dynamic-complete-history
 # ^n cycle through the list of partial matches
 bind -m vi-insert "\C-n":menu-complete
 
-# Cabal
-export PATH=$PATH:$HOME/.cabal/bin
-
 # Go
 export GOROOT=/usr/local/Cellar/go/1
 export PATH=$PATH:$GOROOT/bin:/Users/bpo/stvp/redisgreen/go/path/bin
