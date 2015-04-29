@@ -68,3 +68,6 @@ export PATH="~/sw/appengine:$PATH"
 
 # CoreOS
 export FLEETCTL_TUNNEL=docker.stvp.io
+
+# boot2docker
+export DOCKER_HOST=tcp://localhost:4243
