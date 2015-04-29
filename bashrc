@@ -31,10 +31,6 @@ stty -ixon -ixoff
 export CLICOLOR=1
 export GREP_OPTIONS="--color=auto"
 
-# vi mode
-set -o vi
-set editing-mode vi
-set keymap vi
 set convert-meta on
 export VMAIL_BROWSER="links"
 export VMAIL_VIM="mvim"
