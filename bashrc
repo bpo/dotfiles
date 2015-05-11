@@ -67,7 +67,7 @@ export PATH="$PATH:$HOME/sw/terraform"
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # Google AppEngine
-export PATH="~/sw/appengine:$PATH"
+#export PATH="~/sw/appengine:$PATH"
 
 # CoreOS
 export FLEETCTL_TUNNEL=docker.stvp.io
