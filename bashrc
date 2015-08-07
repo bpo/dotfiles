@@ -44,7 +44,7 @@ bind -m vi-insert "\C-p":dynamic-complete-history
 bind -m vi-insert "\C-n":menu-complete
 
 # Go
-export GOROOT=/usr/local/Cellar/go/1.4.2/libexec
+export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=/Users/bpo/stvp/go
 export PATH=$PATH:${GOPATH//://bin:}/bin
 
