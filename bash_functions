@@ -9,3 +9,6 @@ isreg() {
   whois $1 | grep -q 'No match' && echo "No" || echo "Yes"
 }
 
+hms() {
+  TZ="UTC" date "+%H:%M:%S"
+}
