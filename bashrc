@@ -30,7 +30,7 @@ set convert-meta on
 export VMAIL_BROWSER="links"
 export VMAIL_VIM="mvim"
 export EDITOR="mvim"
-export VIM_APP_DIR=/usr/local/Cellar/macvim/7.4-77
+export VIM_APP_DIR=/Applications
 
 # ^l clear screen
 bind -m vi-insert "\C-l":clear-screen
