@@ -11,11 +11,6 @@ if [ -f ~/.bash_functions ]; then
   . ~/.bash_functions
 fi
 
-# The next line updates PATH for the Google Cloud SDK.
-source "$HOME/google-cloud-sdk/path.bash.inc"
-# The next line enables bash completion for gcloud.
-source "$HOME/google-cloud-sdk/completion.bash.inc"
-
 alias s="screen"
 alias be="bundle exec"
 alias migrate="be rake db:migrate && RAILS_ENV=test be rake db:migrate"
