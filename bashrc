@@ -41,7 +41,7 @@ bind -m vi-insert "\C-n":menu-complete
 
 # Go
 export GOROOT=/usr/local/opt/go/libexec
-export GOPATH=/Users/bpo/projects/learning-go
+export GOPATH=/Users/bpo/go
 export PATH=$PATH:${GOPATH//://bin:}/bin
 
 # Java
