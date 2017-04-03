@@ -42,3 +42,5 @@
     excludesfile = ~/.gitignore.global
 [credential]
 	helper = osxkeychain
+[commit]
+    gpgsign = true
