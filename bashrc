@@ -70,4 +70,8 @@ eval "$(docker-machine env default)"
 # Buildbox
 export UPSTREAM_BUILDS=/Users/bpo/stvp/upstream-builds
 
+# GnuPG
+export GPG_TTY=$(tty)
+eval $(gpg-agent --daemon)
+
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
