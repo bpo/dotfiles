@@ -54,18 +54,9 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-# CoreOS
-export FLEETCTL_TUNNEL=docker.stvp.io
-
-# boot2docker
-export DOCKER_HOST=tcp://localhost:4243
-
 # EC2 Tools
 export EC2_HOME="/usr/local/Cellar/ec2-api-tools/1.7.3.0/libexec"
 export AWS_CLOUDFORMATION_HOME="/usr/local/Cellar/aws-cfn-tools/1.0.12/libexec"
-
-# Docker
-eval "$(docker-machine env default)"
 
 # Buildbox
 export UPSTREAM_BUILDS=/Users/bpo/stvp/upstream-builds
